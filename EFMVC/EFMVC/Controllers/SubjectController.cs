@@ -25,7 +25,7 @@ namespace EFMVC.Controllers
        
         public IActionResult Details(int id)
         {
-            return View(iss.GetSingleSubject(id)); 
+            return View(iss.GetSingleSubject(   id)); 
         }
 
         [HttpGet]
