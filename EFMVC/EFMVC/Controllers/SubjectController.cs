@@ -22,5 +22,36 @@ namespace EFMVC.Controllers
             iss.DeleteASubject(id);
             return RedirectToAction("Index");
         }
+       
+        public IActionResult Details(int id)
+        {
+            return View(iss.GetSingleSubject(id)); 
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            return View(iss.GetSingleSubject(id));
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Subject subject)
+        {
+            iss.UpdateSubject(subject);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View(new Subject()); 
+
+        }
+        [HttpPost]
+        public IActionResult Create(Subject subject)
+        {
+            iss.CreateSubject(subject);
+            return RedirectToAction("Index"); 
+        }
     }
 }

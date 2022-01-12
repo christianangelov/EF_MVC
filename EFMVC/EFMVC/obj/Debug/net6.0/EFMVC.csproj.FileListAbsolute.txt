@@ -260,3 +260,5 @@ C:\Users\User\Documents\HTL_Leonding\CSharp\CsharpTest_EF_MVC\EF_MVC\EFMVC\EFMVC
 C:\Users\User\Documents\HTL_Leonding\CSharp\CsharpTest_EF_MVC\EF_MVC\EFMVC\EFMVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\User\Documents\HTL_Leonding\CSharp\CsharpTest_EF_MVC\EF_MVC\EFMVC\EFMVC\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\User\Documents\HTL_Leonding\CSharp\CsharpTest_EF_MVC\EF_MVC\EFMVC\EFMVC\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\User\Documents\HTL_Leonding\CSharp\CsharpTest_EF_MVC\EF_MVC\EFMVC\EFMVC\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\User\Documents\HTL_Leonding\CSharp\CsharpTest_EF_MVC\EF_MVC\EFMVC\EFMVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
